@@ -62,7 +62,7 @@ a {
 
 }
 
-.card-1 a:hover {
+/* .card-1 a:hover {
     background-color: var(--bright-orange);
     border: solid var(--transparent-white);
     color: var(--transparent-white);
@@ -76,6 +76,14 @@ a {
 
 .card-3 a:hover {
     background-color: var(--very-dark-cyan);
+    border: solid var(--transparent-white);
+    color: var(--transparent-white);
+} */
+
+.card-1 a:hover,
+.card-2 a:hover,
+.card-3 a:hover {
+    background-color: transparent;
     border: solid var(--transparent-white);
     color: var(--transparent-white);
 }
@@ -109,7 +117,7 @@ div {
 
 
 .card-2 a {
-    color: var(--dark-cyan)
+    color: var(--dark-cyan);
 }
 
 .card-3 {
