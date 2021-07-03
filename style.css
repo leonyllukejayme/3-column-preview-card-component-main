@@ -27,7 +27,7 @@ body {
 
 section {
     margin: auto;
-    width: 80%;
+    width: 100%;
     padding: 3em;
 }
 
@@ -133,7 +133,7 @@ div {
 }
 
 
-@media (min-width:1100px) {
+@media (min-width:900px) {
     section {
         display: flex;
     }
